@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Aboutpage.html">About</a></li>
+                <li><a href="Contactpage.html">Contact</a></li>
+                <li><a href="Formpage.html">Register</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <p style="text-align: center;">Fill in the correct information</p>
+    
+    <main>
+                <form action="post">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td> <label for="">Firstname:</label><input type="text" placeholder="Enter Firstname here" required></td>
+                        <td><label for="">Lasstname:</label><input type="text" placeholder="Enter Lastname here" required></td>
+                    </tr>
+                </table>
+                <br>
+                
+                <label for="">Password:</label><br> <input type="password" placeholder="Not less than 5 characters"
+                    required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="">D.O.B:</label> <input type="date"> <br> <br>
+            <label for="">Select Gender:</label> <br>
+            <input type="radio" name="Gender" id=""> Male
+            <input type="radio" name="Gender" id=""> Female
+            <input type="radio" name="Gender" id=""> Other <br> <br>
+            <select name="" id="">
+                <option value="">Select One</option>
+                <option value="">Coding</option>
+                <option value="">UI/UX</option>
+                <option value="">Design</option>
+                <option value="">Cyber Security</option>
+            </select> <br> <br>
+            <input type="file"> <br> <br>
+            <label for="Coding">Click yes if you like coding<input type="checkbox" name="coding" id="" name="coding"></label>Yes <br>
+            <label for="send">Click yes if you want us to send you an email <input type="checkbox" name="send"></label>Yes
+            </fieldset>
+             <br>
+                         <textarea name="" id="" cols="64" rows="3" placeholder="Where do you like to code"></textarea> <br><br>
+            <center><button type="submit">Submit</button></center>
+        </form>
+    </main>
+</body>
+
+</html>
